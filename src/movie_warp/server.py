@@ -230,6 +230,6 @@ def server(config: Config) -> Server:
             await run(f"say Placed frame number {number}")
             #input("Confirm next frame")
         await run(f"fill ~ ~ ~ ~{x} ~{y} ~{z} air")
-        await run(f"say Placed {number} frames")
+        await run(f"say Placed {number + 1} frames")
 
     return app
