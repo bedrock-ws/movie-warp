@@ -24,5 +24,5 @@ cmd.flag(identifier="port", long="port", description="The port to use for the se
 cmd.flag(identifier="host", long="host", description="The host to use for the server", values=[("HOST", str)], default=static(["localhost"]))
 cmd.flag(identifier="direction", long="direction", description="The direction to use", values=[("X|Z|EAST|WEST|NORTH|SOUTH|LATITUDINAL|LONGITUDINAL", Direction.from_str)], default=static([Direction.LATITUDINAL]))
 cmd.flag(identifier="width", short="w", long="width", description="The width of the video output", values=[("INT", int)], default=static([64]))
-cmd.flag(identifier="height", short="h", long="height", description="The height of the video output", values=[("INT", int)], default=static([16]))
+cmd.flag(identifier="height", short="h", long="height", description="The height of the video output", values=[("INT", int)], default=static([36]))
 cmd.pos(identifier="video", description="Path to the video file", name="PATH", into=Path)
