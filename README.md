@@ -5,7 +5,7 @@ This tool warps any video into your Minecraft world!
 ## Installation
 
 ```console
-pipx install git+https://github.com/bedrock-ws/moviewarp.git
+pipx install git+https://github.com/bedrock-ws/movie-warp.git
 ```
 
 ## Usage
